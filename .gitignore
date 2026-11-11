@@ -1,0 +1,16 @@
+# Node
+node_modules/
+.next/
+out/
+.env
+.env.local
+.env.*.local
+*.log
+
+# Rust / Cargo
+target/
+**/*.rs.bk
+
+# OS
+.DS_Store
+Thumbs.db

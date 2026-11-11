@@ -1,0 +1,1 @@
+{"version":3,"file":"semantic-guard.d.ts","sourceRoot":"","sources":["../src/semantic-guard.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,mBAAmB,EAAE,eAAe,EAAE,MAAM,YAAY,CAAC;AAElE,qBAAa,aAAa;IACxB,OAAO,CAAC,MAAM,CAAC,kBAAkB,CAoC/B;IAEF;;OAEG;WACW,cAAc,CAAC,MAAM,EAAE,eAAe,GAAG,mBAAmB;CAkC3E"}

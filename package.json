@@ -1,0 +1,31 @@
+{
+  "name": "orthrus-protocol",
+  "version": "0.1.0",
+  "description": "Dual-Headed Guardrails & Sandboxed Policy Engine for Autonomous AI Agents on NEAR",
+  "main": "index.js",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build:contract": "cd contracts/orthrus-core && cargo build --target wasm32-unknown-unknown --release",
+    "test:contract": "cd contracts/orthrus-core && cargo test",
+    "test:sdk": "npm run test --workspace=@orthrus/sdk",
+    "test:all": "npm run test:contract && npm run test:sdk",
+    "build": "npm run build --workspaces --if-present",
+    "demo": "node packages/cli/bin/orthrus.js simulate"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gepeiyu/orthrus-protocol.git"
+  },
+  "keywords": [
+    "near",
+    "ai-agents",
+    "security",
+    "guardrails",
+    "autonomous-wallets",
+    "policy-engine"
+  ],
+  "author": "Orthrus Protocol Team",
+  "license": "MIT"
+}

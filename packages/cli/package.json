@@ -1,0 +1,11 @@
+{
+  "name": "@orthrus/cli",
+  "version": "0.1.0",
+  "type": "module",
+  "bin": {
+    "orthrus": "./bin/orthrus.js"
+  },
+  "dependencies": {
+    "@orthrus/sdk": "*"
+  }
+}

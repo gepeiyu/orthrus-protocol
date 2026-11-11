@@ -1,0 +1,20 @@
+{
+  "name": "@orthrus/sdk",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Dual-Headed Guardrails SDK for Autonomous AI Agents on NEAR",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "node --test tests/**/*.test.js"
+  },
+  "dependencies": {
+    "near-api-js": "^4.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "@types/node": "^20.11.0"
+  },
+  "license": "MIT"
+}
